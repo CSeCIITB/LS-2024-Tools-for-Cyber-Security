@@ -1,0 +1,2 @@
+flag{REDACTED}
+echo "Yo wassup"
