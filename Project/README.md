@@ -21,3 +21,26 @@ Note that this project is designed to test your ability to write a Python script
 
 ### Submission Link
 Add all files related to your project submission in a public GitHub repository and submit the link to the repo here: https://forms.gle/R3tqnS1WsVgrYyNN7
+
+## Part 2: Brainfuck Interpreter
+
+[Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) is an esoteric programming language, consisting of only eight commands: `>`, `<`, `+`, `-`, `[`, `]`, `.` and `,`. Despite its simplicity, Brainfuck is Turing complete, meaning it can theoretically solve any computational problem given enough time and memory.
+
+In this project, you will implement a simple Brainfuck interpreter in C. This interpreter will read Brainfuck code, execute it, and produce the corresponding output.
+
+To assist you in getting started, a sample template of the Brainfuck interpreter in C can be found [here](./brainfuck.c). Note that using the helper code is not compulsory. Feel free to write the whole interpreter yourself.
+
+### Testing
+Your interpreter should take as input a brainfuck program in the following format and print the output to stdout:
+
+```bash
+./brainfuck "<program>"
+```
+
+**For example**: 
+
+`./brainfuck "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++."` should output `Hello World!` 
+
+
+### Submission Link
+Add all files related to your project submission in a public GitHub repository and submit the link to the repo here: https://forms.gle/KxGbKkbiqf6HCcG47
